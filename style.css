@@ -1,0 +1,16 @@
+* {
+    background-color: black;
+    color: chartreuse;
+}
+
+h3 {
+    margin-left: 20px;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    height: 300px;
+    width: 400px;
+    margin: 0px auto;
+}
