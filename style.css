@@ -1,6 +1,12 @@
 * {
     background-color: black;
     color: chartreuse;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.title {
+    align-content: center;
+    text-align: center;
 }
 
 h3 {

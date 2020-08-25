@@ -57,6 +57,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Selecting the grid
     const grid = document.querySelector('.grid');
     const resultDisplay = document.querySelector('#result');
+    const points = document.querySelector('.points');
     var cardsChosen = [];
     var cardsChosenID = [];
     var cardsWon = [];
@@ -118,8 +119,9 @@ document.addEventListener('DOMContentLoaded', () => {
         resultDisplay.textContent = cardsWon.length;
 
         if (cardsWon.length === cardArray.length / 2) {
-            resultDisplay.textContent = 'Congratulation! You found them all';
+            resultDisplay.textContent = "Congratulation! You've found them all";
             resultDisplay.setAttribute('style', 'color: red; text-transform: uppercase;');
+            points.setAttribute('style', 'display: none;');
         }
     }
 
